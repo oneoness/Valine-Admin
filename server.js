@@ -7,10 +7,10 @@ AV.init({
   appKey: process.env.LEANCLOUD_APP_KEY,
   masterKey: process.env.LEANCLOUD_APP_MASTER_KEY,
   serverURLs: {
-    push: 'http://admin.cimoc.cn',
-    stats: 'http://admin.cimoc.cn',
-    engine: 'http://admin.cimoc.cn',
-    api: 'http://admin.cimoc.cn',
+    push: 'https://admin.cimoc.cn',
+    stats: 'https://admin.cimoc.cn',
+    engine: 'https://admin.cimoc.cn',
+    api: 'https://admin.cimoc.cn',
   },
 });
 
