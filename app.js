@@ -7,12 +7,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var AV = require('leanengine');
 
-AV.init({
-  // appId, appKey,
-  serverURLs: {
-    api: 'https://rovevhwz.api.lncldglobal.com',
-  },
-});
+
 
 // 加载云函数定义，你可以将云函数拆分到多个文件方便管理，但需要在主文件中加载它们
 require('./cloud');
