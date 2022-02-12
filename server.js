@@ -7,9 +7,9 @@ AV.init({
   appKey: process.env.LEANCLOUD_APP_KEY,
   masterKey: process.env.LEANCLOUD_APP_MASTER_KEY,
   serverURLs: {
-    push: 'https://rovevhwz.api.lncldglobal.com',
-    stats: 'https://rovevhwz.api.lncldglobal.com',
-    engine: 'https://rovevhwz.api.lncldglobal.com',
+    push: 'https://rovevhwz.push.lncldglobal.com',
+    stats: 'https://rovevhwz.stats.lncldglobal.com',
+    engine: 'https://rovevhwz.engine.lncldglobal.com',
     api: 'https://rovevhwz.api.lncldglobal.com',
   },
 });
