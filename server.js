@@ -6,12 +6,7 @@ AV.init({
   appId: process.env.LEANCLOUD_APP_ID,
   appKey: process.env.LEANCLOUD_APP_KEY,
   masterKey: process.env.LEANCLOUD_APP_MASTER_KEY,
-  serverURLs: {
-    push: 'https://rovevhwz.push.lncldglobal.com',
-    stats: 'https://rovevhwz.stats.lncldglobal.com',
-    engine: 'https://rovevhwz.engine.lncldglobal.com',
-    api: 'https://rovevhwz.api.lncldglobal.com',
-  },
+  serverURLs: 'https://rovevhwz.api.lncldglobal.com',
 });
 
 // 如果不希望使用 masterKey 权限，可以将下面一行删除
